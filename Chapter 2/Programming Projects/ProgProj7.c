@@ -3,7 +3,7 @@
 int main(void)
 {
 int dollar, twenty, five, ten, one;
-printf ("How Many Dollas: ");
+printf ("How Many Dollas:");
 scanf("%d", &dollar);
 twenty = (dollar/20);
 dollar = dollar - (twenty*20);
